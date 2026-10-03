@@ -45,7 +45,7 @@ ul.chk{list-style:none;padding:0;margin:22px 0 0;display:flex;gap:10px;flex-wrap
 .how ol{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,4vw,56px);counter-reset:s}
 .how li span{font:700 96px/1 "Barlow Condensed";color:var(--o)}.how li h3{font-size:34px;text-transform:uppercase}.how li p{color:var(--mute)}
 .faq{background:var(--bg2)}.faq .in{max-width:900px}details{border-bottom:1px solid var(--line);padding:18px 0}summary{cursor:pointer;font:600 26px "Barlow Condensed";letter-spacing:.02em;list-style:none}summary::-webkit-details-marker{display:none}summary:after{content:"+";float:right;color:var(--o)}details[open] summary:after{content:"–"}details p{color:var(--mute);margin-top:10px;max-width:60ch}
-.mv{margin:44px 0 0;max-width:1100px}.mvf{position:relative;aspect-ratio:16/9;background:#000;border:1px solid var(--line)}.mvf iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.mv figcaption{color:var(--mute);font-size:14px;margin-top:10px}
+.mv{margin:44px calc(-1*clamp(16px,5vw,72px)) 0;max-width:none}.mvf{position:relative;aspect-ratio:16/9;background:#000}.mvf iframe{position:absolute;inset:0;width:100%;height:100%;border:0}.mv figcaption{color:var(--mute);font-size:14px;margin-top:10px;padding:0 clamp(16px,5vw,72px)}
 .contact .grid{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(24px,5vw,80px)}
 form{display:grid;grid-template-columns:1fr 1fr;gap:14px}form .full{grid-column:1/-1}
 label{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--mute);display:block;margin-bottom:5px}
