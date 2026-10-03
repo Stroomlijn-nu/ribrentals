@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Tjimka.github.io/ribrentals/sitemap.xml
+Sitemap: https://Stroomlijn-nu.github.io/ribrentals/sitemap.xml
