@@ -330,7 +330,7 @@
 <section class="faq"><div class="in"><h2 class="t rv" style="margin-bottom:24px">Good to know</h2><details><summary>Do the boats come with a crew?</summary><p>Yes, a skipper is available. You can also rent without crew if your team holds the right qualifications.</p></details><details><summary>Can you deliver abroad?</summary><p>Yes. The boats are road transportable and fit a 40 ft container. Trading area is worldwide.</p></details><details><summary>Which classification do the boats have?</summary><p>The Cyclone 8 and 9 are MCA Cat 3 up to 20 miles. The Galactica and Tornado 7 are MCA. See each spec sheet for details.</p></details><details><summary>How fast can I get a quote?</summary><p>Send the form and Klaas Post replies personally, usually within one working day.</p></details></div></section>
 <section class="contact" id="contact"><div class="grid"><div><h2 class="t rv">Tell us what you need</h2><p class="sub" style="margin-top:16px">Klaas Post replies personally.</p>
 <p class="addr">Post Workboats, Wijk 1 – 30, 8321 EL Urk, the Netherlands<br><a href="tel:+31527681667">+31 527 68 16 67</a><br><a href="mailto:info@postworkboats.nl">info@postworkboats.nl</a></p></div>
-<form id="rf" method="post" action="#"><input type="hidden" name="taal" value="en"><input type="hidden" name="bron" id="f_bron"><input type="hidden" name="landing_verwijzer" id="f_ref">
+<form id="rf" method="post" action="#"><input class="hp" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><input type="hidden" name="taal" value="en"><input type="hidden" name="bron" id="f_bron"><input type="hidden" name="landing_verwijzer" id="f_ref">
 <div><label for="n">Name</label><input id="n" name="name" required autocomplete="name"></div>
 <div><label for="e">Email</label><input id="e" name="email" type="email" required autocomplete="email"></div>
 <div><label for="p">Phone</label><input id="p" name="phone" type="tel" autocomplete="tel"></div>
@@ -346,5 +346,49 @@
 <footer><span>© Rib Rentals · Part of Post Workboats, Urk, the Netherlands.</span><span>Post Workboats, Wijk 1 – 30, 8321 EL Urk, the Netherlands</span></footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="script.js"></script>
-</body></html>
+<script>
+(function(){
+/* Instelbaar: seconden die aan het eind van de video worden overgeslagen (aftiteling met websitenaam) */
+var CREDITS_TRIM=8;
+['hv','vt'].forEach(function(id){var v=document.getElementById(id);if(!v)return;
+ v.addEventListener('timeupdate',function(){if(v.duration&&v.currentTime>=v.duration-CREDITS_TRIM){v.currentTime=0;v.play().catch(function(){});}});
+ v.play&&v.play().catch(function(){});});
+var q=new URLSearchParams(location.search);
+var src=q.get('utm_source')||(document.referrer?new URL(document.referrer).hostname:'direct');
+var bron='website ribrentals.com | en | '+src+(q.get('utm_campaign')?' | '+q.get('utm_campaign'):'');
+document.getElementById('f_bron').value=bron;document.getElementById('f_ref').value=location.href;
+document.querySelectorAll('[data-i]').forEach(function(a){a.addEventListener('click',function(){var m=document.getElementById('m');if(m&&!m.value){m.placeholder=a.dataset.i==='quote'?'Request a quote':'Request information';}});});
+var WH='https://app.stroomlijn.nu/api/webhooks/flow/6419/c9478d33e37623b4364ef235ee6dff19a53075e3934599a553dfcaeeff7f300d';
+document.addEventListener('submit',function(ev){var f=ev.target;if(!f||f.id!=='rf')return;ev.preventDefault();ev.stopImmediatePropagation();
+ if(f.elements.hp&&f.elements.hp.value)return;
+ var o={};new FormData(f).forEach(function(v,k){o[k]=v});
+ var body=JSON.stringify({contactName:o.name,contactEmail:o.email,contactPhone:o.phone||'',data:{bron:o.bron,landing_verwijzer:o.landing_verwijzer,projecttype:o.projecttype,periode:o.periode,locatie:o.locatie,boot_voorkeur:o.boot_voorkeur,bedrijf:o.bedrijf,hoe_kwam_je_bij_ons:o.hoe_kwam_je_bij_ons,bericht:o.bericht,taal:o.taal}});
+ var b=document.getElementById('sb');b.disabled=true;
+ function ok(){f.innerHTML='<p class="thx">Thank you. We will be in touch.</p>';}
+ function bad(){b.disabled=false;var e=f.querySelector('.ferr');if(!e){e=document.createElement('p');e.className='ferr';f.appendChild(e);}e.textContent='Something went wrong. Please email info@postworkboats.nl.';}
+ fetch(WH,{method:'POST',headers:{'Content-Type':'application/json'},body:body}).then(function(r){r.ok?ok():bad();}).catch(function(){
+  fetch(WH,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},body:body}).then(ok).catch(bad);});
+},true);
+if(window.gsap&&window.ScrollTrigger&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+ gsap.registerPlugin(ScrollTrigger);
+ var tl=gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'+=130%',scrub:.6,pin:true,anticipatePin:1}});
+ tl.to('.hc',{yPercent:-30,opacity:0,duration:.5},0).fromTo('#hv',{scale:1.12},{scale:1,duration:1},0)
+   .fromTo('.reveal',{clipPath:'inset(100% 0% 0% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',duration:.8,ease:'power2.inOut'},.25)
+   .from('.reveal h2',{y:60,opacity:0,duration:.4},.7).from('.stats div',{y:30,opacity:0,stagger:.08,duration:.3},.8);
+ gsap.utils.toArray('.rv').forEach(function(e){gsap.to(e,{opacity:1,y:0,duration:.8,ease:'power2.out',scrollTrigger:{trigger:e,start:'top 88%'}});});
+ document.querySelectorAll('.scene').forEach(function(sc){
+  var f=sc.querySelectorAll('figure'),n=f.length,num=sc.querySelector('.sc-n b'),bar=sc.querySelector('.sc-bar u');
+  var st=gsap.timeline({scrollTrigger:{trigger:sc,start:'top top',end:'+='+(n-1)*90+'%',scrub:.7,pin:true,anticipatePin:1,
+   onUpdate:function(self){var i=Math.min(n,Math.floor(self.progress*(n-1)+.5)+1);num.textContent=('0'+i).slice(-2);}}});
+  gsap.set(f[0].querySelector('img'),{scale:1.15});
+  st.to(f[0].querySelector('img'),{scale:1,duration:1,ease:'none'},0);
+  for(var k=1;k<n;k++){
+   st.fromTo(f[k],{clipPath:'inset(100% 0% 0% 0%)'},{clipPath:'inset(0% 0% 0% 0%)',duration:1,ease:'power2.inOut'},k-1+.0)
+     .fromTo(f[k].querySelector('img'),{scale:1.3,yPercent:8},{scale:1,yPercent:0,duration:1.4,ease:'none'},k-1)
+     .to(f[k-1].querySelector('img'),{yPercent:-10,duration:1,ease:'none'},k-1);}
+  st.to(bar,{scaleX:1,duration:n-1,ease:'none'},0);
+ });
+ gsap.utils.toArray('.boat').forEach(function(e){gsap.from(e,{y:50,opacity:0,duration:.8,scrollTrigger:{trigger:e,start:'top 92%'}});});
+}else{document.documentElement.classList.add('nomotion');document.querySelectorAll('.rv').forEach(function(e){e.style.opacity=1;e.style.transform='none'});}
+})();
+</script></body></html>
