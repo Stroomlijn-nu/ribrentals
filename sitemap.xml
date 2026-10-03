@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tjimka.github.io/ribrentals/nl/</loc>
+    <lastmod>2026-10-03T13:51:16.924Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://tjimka.github.io/ribrentals/</loc>
     <lastmod>2026-10-03T13:51:07.333Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -8,11 +13,6 @@
   <url>
     <loc>https://tjimka.github.io/ribrentals/de/</loc>
     <lastmod>2026-10-03T13:50:58.589Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://tjimka.github.io/ribrentals/nl/</loc>
-    <lastmod>2026-10-03T13:49:53.967Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
