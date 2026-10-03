@@ -364,10 +364,12 @@ document.addEventListener('submit',function(ev){var f=ev.target;if(!f||f.id!=='r
  var o={};new FormData(f).forEach(function(v,k){o[k]=v});
  var body=JSON.stringify({contactName:o.name,contactEmail:o.email,contactPhone:o.phone||'',data:{bron:o.bron,landing_verwijzer:o.landing_verwijzer,projecttype:o.projecttype,periode:o.periode,locatie:o.locatie,boot_voorkeur:o.boot_voorkeur,bedrijf:o.bedrijf,hoe_kwam_je_bij_ons:o.hoe_kwam_je_bij_ons,bericht:o.bericht,taal:o.taal}});
  var b=document.getElementById('sb');b.disabled=true;
- function ok(){f.innerHTML='<p class="thx">Thank you. We will be in touch.</p>';}
- function bad(){b.disabled=false;var e=f.querySelector('.ferr');if(!e){e=document.createElement('p');e.className='ferr';f.appendChild(e);}e.textContent='Something went wrong. Please email info@postworkboats.nl.';}
- fetch(WH,{method:'POST',headers:{'Content-Type':'application/json'},body:body}).then(function(r){r.ok?ok():bad();}).catch(function(){
-  fetch(WH,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain'},body:body}).then(ok).catch(bad);});
+ var oe=f.querySelector('.ferr');if(oe)oe.parentNode.removeChild(oe);
+ var kids=Array.prototype.slice.call(f.children);kids.forEach(function(c){c.style.display='none'});
+ var t=document.createElement('p');t.className='thx';t.textContent='Thank you. We will be in touch.';f.appendChild(t);t.scrollIntoView({block:'center',behavior:'smooth'});
+ function bad(){if(t.parentNode)t.parentNode.removeChild(t);kids.forEach(function(c){c.style.display=''});b.disabled=false;var e=document.createElement('p');e.className='ferr';f.appendChild(e);e.textContent='Something went wrong. Please email info@postworkboats.nl.';}
+ fetch(WH,{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:body}).then(function(r){if(!r.ok)bad();}).catch(function(){
+  fetch(WH,{method:'POST',keepalive:true,mode:'no-cors',headers:{'Content-Type':'text/plain'},body:body}).catch(bad);});
 },true);
 if(window.gsap&&window.ScrollTrigger&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
  gsap.registerPlugin(ScrollTrigger);
