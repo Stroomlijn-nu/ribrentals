@@ -1,26 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<!-- paymegpt-404:default -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Page not found · RIB and workboat rental for film and offshore | Rib Rentals</title>
+<title>Page not found | Rib Rentals</title>
+<meta name="description" content="This page could not be found. Return to the Rib Rentals homepage.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <style>
-  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f8fafc;color:#0f172a;text-align:center;padding:24px}
-  .card{max-width:420px}
-  h1{font-size:72px;margin:0;line-height:1;color:#94a3b8;font-weight:800}
-  h2{font-size:22px;margin:16px 0 8px}
-  p{color:#64748b;margin:0 0 24px}
-  a{display:inline-block;padding:12px 20px;border-radius:8px;background:#0f172a;color:#fff;text-decoration:none;font-weight:600}
+  :root {
+    --orange: #F26A2B;
+    --navy: #0B1F2E;
+    --text: #E9EEF2;
+    --muted: #9FB0BD;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--navy);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-image: radial-gradient(circle at 80% 0%, rgba(242,106,43,.18), transparent 55%);
+  }
+  main { max-width: 560px; width: 100%; }
+  .brand {
+    font-weight: 800;
+    letter-spacing: .04em;
+    font-size: 1.5rem;
+    color: var(--orange);
+    margin-bottom: 40px;
+  }
+  .code {
+    font-size: clamp(4.5rem, 20vw, 8rem);
+    font-weight: 800;
+    line-height: 1;
+    color: var(--orange);
+    margin: 0 0 8px;
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 12px; }
+  p { color: var(--muted); line-height: 1.6; margin: 0 0 8px; }
+  .nl, .de { font-size: .95rem; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+  a.btn {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid var(--orange);
+  }
+  a.primary { background: var(--orange); color: #fff; }
+  a.secondary { color: var(--orange); }
+  a.btn:hover, a.btn:focus-visible { filter: brightness(1.1); outline: none; box-shadow: 0 0 0 3px rgba(242,106,43,.35); }
 </style>
 </head>
 <body>
-<div class="card">
-  <h1>404</h1>
-  <h2>Page not found</h2>
-  <p>The link you followed may be broken or the page may have moved.</p>
-  <a href="/ribrentals/">Go to homepage</a>
-</div>
+<main>
+  <div class="brand">RIB RENTALS</div>
+  <p class="code" aria-hidden="true">404</p>
+  <h1>This page is not on board</h1>
+  <p>The page you are looking for does not exist or has moved.</p>
+  <p class="nl">Deze pagina bestaat niet of is verplaatst.</p>
+  <p class="de">Diese Seite existiert nicht oder wurde verschoben.</p>
+  <div class="actions">
+    <a class="btn primary" href="/">Back to home</a>
+    <a class="btn secondary" href="/#contact">Request information</a>
+  </div>
+</main>
 </body>
 </html>
