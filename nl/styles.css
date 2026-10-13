@@ -81,6 +81,7 @@ input,select,textarea{width:100%;background:var(--bg2);border:1px solid var(--li
 textarea{min-height:120px;resize:vertical}.hp{position:absolute;left:-9999px}
 .addr{color:var(--mute);margin-top:22px;font-size:15px;font-style:normal}.addr a{color:var(--ink)}
 footer{padding:32px clamp(16px,5vw,72px);border-top:1px solid var(--line);color:var(--mute);font-size:14px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}footer a{color:var(--ink)}
+.pv{font-size:13px;color:var(--mute);margin-top:2px}.pv a{color:var(--ink)}
 .thx{font:700 clamp(28px,4vw,48px)/1 "Barlow Condensed";text-transform:uppercase;color:var(--o);grid-column:1/-1}.ferr{color:#ff8a65;grid-column:1/-1;font-size:15px}
 .rv{opacity:0;transform:translateY(24px)}
 .mbar{display:none}
@@ -103,3 +104,4 @@ table.ft{width:100%;border-collapse:collapse;min-width:760px;font-size:15px}
 @media(max-width:900px){.nav,.tel{display:none}.burger{display:block}.lang{margin-left:auto}.stats{grid-template-columns:1fr 1fr}.fleet{grid-template-columns:1fr}.b0,.b1,.b2,.b3,.b4,.b5{grid-column:auto;grid-row:auto}.contact .grid,.how ol,.pk-g{grid-template-columns:1fr}form{grid-template-columns:1fr}dl{grid-template-columns:repeat(2,1fr)}.hc{bottom:14vh}.cue{right:50%;transform:translateX(50%);bottom:2.5vh}}
 @media(max-width:700px){.hcta{display:none}.lang a span{display:none}.mbar{position:fixed;left:0;right:0;bottom:0;z-index:58;display:flex;gap:10px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#071018f2;border-top:1px solid var(--line);transform:translateY(115%);transition:transform .3s}.mbar.on{transform:none}.mbar .btn{flex:1;text-align:center;padding:11px 10px;font-size:18px}footer{padding-bottom:88px}}
 @media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none}html{scroll-behavior:auto}.cue i:after{animation:none}}
+.pv{font-size:13px;color:var(--mute);margin-top:2px}.pv a{color:var(--ink)}
