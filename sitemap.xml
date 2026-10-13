@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://stroomlijn-nu.github.io/ribrentals/</loc>
+    <lastmod>2026-10-13T15:20:26.652Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://stroomlijn-nu.github.io/ribrentals/404-html/</loc>
-    <lastmod>2026-10-13T14:55:38.489Z</lastmod>
+    <lastmod>2026-10-13T15:20:06.677Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://stroomlijn-nu.github.io/ribrentals/de/</loc>
-    <lastmod>2026-10-13T13:27:16.351Z</lastmod>
+    <lastmod>2026-10-13T15:20:05.837Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://stroomlijn-nu.github.io/ribrentals/nl/</loc>
-    <lastmod>2026-10-13T13:27:04.611Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://stroomlijn-nu.github.io/ribrentals/</loc>
-    <lastmod>2026-10-13T13:26:52.439Z</lastmod>
+    <lastmod>2026-10-13T15:20:04.861Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
