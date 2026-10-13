@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://stroomlijn-nu.github.io/ribrentals/de/</loc>
-    <lastmod>2026-10-13T13:27:16.351Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://stroomlijn-nu.github.io/ribrentals/nl/</loc>
-    <lastmod>2026-10-13T13:27:04.611Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://stroomlijn-nu.github.io/ribrentals/</loc>
-    <lastmod>2026-10-13T13:26:52.439Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://www.ribrentals.com/</loc><xhtml:link rel="alternate" hreflang="en" href="https://www.ribrentals.com/"/><xhtml:link rel="alternate" hreflang="nl" href="https://www.ribrentals.com/nl/"/><xhtml:link rel="alternate" hreflang="de" href="https://www.ribrentals.com/de/"/><lastmod>2026-10-13</lastmod></url>
+<url><loc>https://www.ribrentals.com/nl/</loc><xhtml:link rel="alternate" hreflang="en" href="https://www.ribrentals.com/"/><xhtml:link rel="alternate" hreflang="nl" href="https://www.ribrentals.com/nl/"/><xhtml:link rel="alternate" hreflang="de" href="https://www.ribrentals.com/de/"/><lastmod>2026-10-13</lastmod></url>
+<url><loc>https://www.ribrentals.com/de/</loc><xhtml:link rel="alternate" hreflang="en" href="https://www.ribrentals.com/"/><xhtml:link rel="alternate" hreflang="nl" href="https://www.ribrentals.com/nl/"/><xhtml:link rel="alternate" hreflang="de" href="https://www.ribrentals.com/de/"/><lastmod>2026-10-13</lastmod></url>
 </urlset>
