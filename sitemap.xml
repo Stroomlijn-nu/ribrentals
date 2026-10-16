@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/nl/</loc>
+    <lastmod>2026-10-16T16:43:24.094Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/de/</loc>
+    <lastmod>2026-10-16T16:43:11.946Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/en/services/</loc>
     <lastmod>2026-10-16T16:42:56.609Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -113,16 +123,6 @@
   <url>
     <loc>https://www.ribrentals.com/</loc>
     <lastmod>2026-10-16T16:38:19.502Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/de/</loc>
-    <lastmod>2026-10-14T14:25:28.727Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/nl/</loc>
-    <lastmod>2026-10-14T09:34:15.102Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
