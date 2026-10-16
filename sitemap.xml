@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/nl/vloot/enterprise/</loc>
+    <lastmod>2026-10-16T16:40:40.365Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/en/fleet/twister-7/</loc>
     <lastmod>2026-10-16T16:40:30.918Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -63,11 +68,6 @@
   <url>
     <loc>https://www.ribrentals.com/nl/</loc>
     <lastmod>2026-10-14T09:34:15.102Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/nl/vloot/enterprise/</loc>
-    <lastmod>2026-10-13T16:51:28.514Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
