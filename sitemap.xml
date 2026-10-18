@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/nl/vloot/galactica-catamaran/</loc>
+    <lastmod>2026-10-18T12:55:32.829Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/en/fleet/galactica-catamaran/</loc>
+    <lastmod>2026-10-18T12:55:19.638Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/nl/vloot/cyclone-9/</loc>
     <lastmod>2026-10-18T12:54:32.959Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,11 +66,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.ribrentals.com/nl/vloot/galactica-catamaran/</loc>
-    <lastmod>2026-10-16T16:41:22.781Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://www.ribrentals.com/nl/vloot/tornado-7/</loc>
     <lastmod>2026-10-16T16:41:13.049Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -88,11 +93,6 @@
   <url>
     <loc>https://www.ribrentals.com/en/fleet/rib-p62/</loc>
     <lastmod>2026-10-16T16:40:10.726Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/en/fleet/galactica-catamaran/</loc>
-    <lastmod>2026-10-16T16:39:58.899Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
