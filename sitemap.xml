@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/nl/vloot/rib-p62/</loc>
+    <lastmod>2026-10-18T12:56:15.043Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/en/fleet/galactica-catamaran/</loc>
     <lastmod>2026-10-18T12:56:04.258Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,11 +73,6 @@
   <url>
     <loc>https://www.ribrentals.com/nl/vloot/tornado-10/</loc>
     <lastmod>2026-10-16T16:41:44.704Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/nl/vloot/rib-p62/</loc>
-    <lastmod>2026-10-16T16:41:32.172Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
