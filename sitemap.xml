@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/nl/film/</loc>
+    <lastmod>2026-10-20T10:40:08.266Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/nl/diensten/</loc>
     <lastmod>2026-10-20T10:39:53.611Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,11 +133,6 @@
   <url>
     <loc>https://www.ribrentals.com/nl/offshore/</loc>
     <lastmod>2026-10-20T10:35:13.431Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/nl/film/</loc>
-    <lastmod>2026-10-20T10:35:06.777Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
