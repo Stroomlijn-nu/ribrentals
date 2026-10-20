@@ -2,13 +2,35 @@
 
 > Rib Rentals is the rental brand of Post Workboats in Urk, the Netherlands. It rents RIBs and workboats for film productions, offshore wind and survey, with or without crew, delivered worldwide. Klaas Post replies to every request personally.
 
-## Pages
+## Main pages
 - [English](https://www.ribrentals.com/): fleet, film, offshore, how it works, FAQ, request form
 - [Nederlands](https://www.ribrentals.com/nl/): vloot, film, offshore, werkwijze, veelgestelde vragen, aanvraagformulier
 - [Deutsch](https://www.ribrentals.com/de/): Flotte, Film, Offshore, Ablauf, FAQ, Anfrageformular
 
+## Rental by sector
+- [Film and production, English](https://www.ribrentals.com/en/film/): camera, safety and picture boats
+- [Film en productie, Nederlands](https://www.ribrentals.com/nl/film/)
+- [Film und Produktion, Deutsch](https://www.ribrentals.com/de/film/)
+- [Offshore wind and survey, English](https://www.ribrentals.com/en/offshore/): dive support, survey, ROV and crew transfers
+- [Offshore en survey, Nederlands](https://www.ribrentals.com/nl/offshore/)
+- [Services](https://www.ribrentals.com/en/services/)
+
+## Fleet (English pages, also available in Dutch and, for five boats, German)
+- [Galactica Catamaran](https://www.ribrentals.com/en/fleet/galactica-catamaran/): 10.2 m, built 2023, 10 passengers plus crew, cabin, galley, bed and toilet, winch with 300 m towline
+- [Cyclone 9](https://www.ribrentals.com/en/fleet/cyclone-9/): 8.8 m, built 2023, 4 passengers plus crew, bowthruster, dynamic positioning, 1500 kg bollard pull
+- [RIB P62](https://www.ribrentals.com/en/fleet/rib-p62/): 8.8 m, built 2025, 4 passengers plus crew, dynamic positioning, night vision camera
+- [Tornado 10](https://www.ribrentals.com/en/fleet/tornado-10/): 9.5 m, built 2026, diesel heater, 1500 kg bollard pull
+- [Cyclone 8](https://www.ribrentals.com/en/fleet/cyclone-8/): 8.8 m, built 2021, 4 passengers plus crew
+- [Tornado 7](https://www.ribrentals.com/en/fleet/tornado-7/): 8.5 m, built 2021, 8 passengers plus crew, fits a 20 ft container
+- [Enterprise](https://www.ribrentals.com/en/fleet/enterprise/): 10.6 m, built 2024, 6 passengers plus crew, heating and radar, 1600 kg bollard pull
+- [Twister 7](https://www.ribrentals.com/en/fleet/twister-7/): 7.0 m, built 2025, very low clearance height thanks to a fold-down windscreen
+
 ## Facts
-- Fleet: Galactica, Cyclone 9, RIB 62, Tornado 10, Cyclone 8, Tornado 7, all built in GRP by Post Workboats
-- Used for: Red Bull Air Race, Dunkirk, Tenet, The Odyssey, offshore wind, survey and ROV support
-- Contact: info@postworkboats.nl, +31 6 55 82 48 72
-- Address: Post Workboats, Wijk 1 - 30, 8321 EL Urk, the Netherlands
+- All eight hulls are GRP, built in the Netherlands by Post Workboats.
+- Trading area is worldwide. Boats are delivered by road, container, crane or slip.
+- Used for Red Bull Air Race, Dunkirk, Tenet and The Odyssey, and for offshore wind, survey and ROV support.
+- Rental only, no sales.
+
+## Contact
+- Klaas Post, +31 6 55 82 48 72, info@ribrentals.com
+- Post Workboats, Wijk 1 - 30, 8321 EL Urk, the Netherlands
