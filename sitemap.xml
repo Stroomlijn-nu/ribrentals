@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/de/flotte/cyclone-8/</loc>
+    <lastmod>2026-10-20T10:36:39.472Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/de/film/</loc>
     <lastmod>2026-10-20T10:36:31.523Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,11 +28,6 @@
   <url>
     <loc>https://www.ribrentals.com/</loc>
     <lastmod>2026-10-20T10:35:27.422Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/de/flotte/cyclone-8/</loc>
-    <lastmod>2026-10-20T10:35:16.419Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
