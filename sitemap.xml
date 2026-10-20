@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/de/leistungen/</loc>
+    <lastmod>2026-10-20T10:37:43.195Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/de/flotte/tornado-10/</loc>
     <lastmod>2026-10-20T10:37:34.569Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -78,11 +83,6 @@
   <url>
     <loc>https://www.ribrentals.com/en/privacy-policy/</loc>
     <lastmod>2026-10-20T10:34:41.932Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/de/leistungen/</loc>
-    <lastmod>2026-10-20T10:34:38.560Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
