@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/nl/vloot/cyclone-8/</loc>
+    <lastmod>2026-10-20T10:40:47.433Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/nl/privacyverklaring/</loc>
     <lastmod>2026-10-20T10:40:30.002Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -148,11 +153,6 @@
   <url>
     <loc>https://www.ribrentals.com/nl/vloot/cyclone-9/</loc>
     <lastmod>2026-10-20T10:34:11.497Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/nl/vloot/cyclone-8/</loc>
-    <lastmod>2026-10-20T10:34:09.067Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
