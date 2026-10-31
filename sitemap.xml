@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ribrentals.com/</loc>
+    <lastmod>2026-10-31T13:03:08.416Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/de/film/</loc>
+    <lastmod>2026-10-31T13:02:41.882Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/de/</loc>
+    <lastmod>2026-10-31T13:02:36.474Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/nl/film/</loc>
+    <lastmod>2026-10-31T13:02:30.883Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/nl/offshore/</loc>
+    <lastmod>2026-10-31T13:02:24.591Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/nl/</loc>
+    <lastmod>2026-10-31T13:02:19.004Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/en/film/</loc>
+    <lastmod>2026-10-31T13:02:11.048Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.ribrentals.com/en/offshore/</loc>
+    <lastmod>2026-10-31T13:02:05.657Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://www.ribrentals.com/nl/vloot/twister-7/</loc>
     <lastmod>2026-10-31T10:43:58.395Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -46,23 +86,8 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.ribrentals.com/nl/offshore/</loc>
-    <lastmod>2026-10-31T10:42:41.342Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/nl/film/</loc>
-    <lastmod>2026-10-31T10:42:31.184Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://www.ribrentals.com/nl/diensten/</loc>
     <lastmod>2026-10-31T10:42:22.531Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/nl/</loc>
-    <lastmod>2026-10-31T10:42:11.282Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -73,11 +98,6 @@
   <url>
     <loc>https://www.ribrentals.com/en/privacy-policy/</loc>
     <lastmod>2026-10-31T10:41:44.023Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/en/offshore/</loc>
-    <lastmod>2026-10-31T10:41:32.638Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -101,11 +121,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.ribrentals.com/en/film/</loc>
-    <lastmod>2026-10-31T10:40:01.035Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://www.ribrentals.com/de/flotte/cyclone-9/</loc>
     <lastmod>2026-10-31T10:39:21.254Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -116,18 +131,8 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://www.ribrentals.com/de/</loc>
-    <lastmod>2026-10-31T10:39:00.809Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://www.ribrentals.com/404-html/</loc>
     <lastmod>2026-10-31T10:38:39.235Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/</loc>
-    <lastmod>2026-10-31T10:38:27.462Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -168,11 +173,6 @@
   <url>
     <loc>https://www.ribrentals.com/de/flotte/galactica-catamaran/</loc>
     <lastmod>2026-10-31T10:35:41.805Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.ribrentals.com/de/film/</loc>
-    <lastmod>2026-10-31T10:35:11.944Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
