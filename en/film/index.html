@@ -339,7 +339,7 @@
 <div><label for="pt">Type of project</label><select id="pt" name="projecttype"><option value="" disabled>Select</option><option selected>Film or television</option><option>Offshore wind</option><option>Survey or ROV</option><option>Event</option><option>Other</option></select></div><div><label for="pe">Period</label><input id="pe" name="periode" placeholder="e.g. May 2027, 3 weeks"></div>
 <div><label for="lo">Location</label><input id="lo" name="locatie"></div><div><label for="bv">Preferred boat</label><select id="bv" name="boot_voorkeur"><option>No preference</option><option>Galactica Catamaran</option><option>Cyclone 9</option><option>RIB P62</option><option>Tornado 10</option><option>Cyclone 8</option><option>Tornado 7</option><option>Enterprise</option><option>Twister 7</option></select></div>
 <div class="full"><label for="m">Message</label><textarea id="m" name="bericht"></textarea></div><div class="full"><label for="hk">How did you find us?</label><input id="hk" name="hoe_kwam_je_bij_ons"></div>
-<div class="full"><button class="btn solid" type="submit" id="sb">Send request</button></div><p class="full pv">We use your details only to answer your request. Read our <a href="/en/privacy-policy/">privacy policy</a>.</p></form></div></section></main>
+<div class="full"><div class="cf-turnstile" data-sitekey="0x4AAAAAAFt9spKk__FkmlPc" data-theme="light" data-language="auto" style="margin:12px 0"></div><button class="btn solid" type="submit" id="sb">Send request</button></div><p class="full pv">We use your details only to answer your request. Read our <a href="/en/privacy-policy/">privacy policy</a>.</p></form></div></section></main>
 <footer><span>© Rib Rentals · Part of Post Workboats, Urk, the Netherlands.</span><span><a href="/en/services/">Services</a> · <a href="/en/privacy-policy/">Privacy policy</a></span><span><a href="tel:+31655824872">+31 6 55 82 48 72</a> · <a href="mailto:info@ribrentals.com">info@ribrentals.com</a></span><span>Post Workboats, Wijk 1 - 30, 8321 EL Urk, the Netherlands</span></footer>
 <div class="mbar" aria-label="Request a quote"><a class="btn solid" href="#contact" data-i="quote">Request a quote</a><a class="btn" href="tel:+31655824872">Call</a></div>
 <script>(function(){
@@ -379,16 +379,17 @@ var qb=q.get('boat');if(qb&&bv){var nz=function(s){return String(s).toLowerCase(
 var WH='https://app.stroomlijn.nu/api/webhooks/flow/6419/c9478d33e37623b4364ef235ee6dff19a53075e3934599a553dfcaeeff7f300d';
 doc.addEventListener('submit',function(ev){var f=ev.target;if(!f||f.id!=='rf')return;ev.preventDefault();ev.stopImmediatePropagation();
  if(f.elements.hp&&f.elements.hp.value)return;
+ var tk=(f.elements['cf-turnstile-response']&&f.elements['cf-turnstile-response'].value)||'';if(!tk){var oe=f.querySelector('.ferr');if(oe)oe.parentNode.removeChild(oe);var e=doc.createElement('p');e.className='ferr';f.appendChild(e);e.textContent='Please confirm you are not a robot and try again.';return;}
  var o={};new FormData(f).forEach(function(v,k){o[k]=v});
  var tag=o.aanvraag==='quote'?'[OFFERTE AANVRAAG] ':'[INFORMATIE AANVRAAG] ';
- var body=JSON.stringify({contactName:o.name,contactEmail:o.email,contactPhone:o.phone||'',data:{bron:o.bron,landing_verwijzer:o.landing_verwijzer,projecttype:o.projecttype,periode:o.periode,locatie:o.locatie,boot_voorkeur:o.boot_voorkeur,bedrijf:o.bedrijf,hoe_kwam_je_bij_ons:o.hoe_kwam_je_bij_ons,bericht:tag+(o.bericht||''),taal:o.taal,aanvraag:o.aanvraag}});
+ var body=JSON.stringify({contactName:o.name,contactEmail:o.email,contactPhone:o.phone||'',data:{bron:o.bron,landing_verwijzer:o.landing_verwijzer,projecttype:o.projecttype,periode:o.periode,locatie:o.locatie,boot_voorkeur:o.boot_voorkeur,bedrijf:o.bedrijf,hoe_kwam_je_bij_ons:o.hoe_kwam_je_bij_ons,bericht:tag+(o.bericht||''),taal:o.taal,aanvraag:o.aanvraag,cf_token:tk}});
  var b=doc.getElementById('sb');b.disabled=true;
  var oe=f.querySelector('.ferr');if(oe)oe.parentNode.removeChild(oe);
  var kids=Array.prototype.slice.call(f.children);kids.forEach(function(c){c.style.display='none'});
  var t=doc.createElement('p');t.className='thx';t.textContent='Thank you. We will be in touch.';f.appendChild(t);t.scrollIntoView({block:'center',behavior:'smooth'});
- function bad(){if(t.parentNode)t.parentNode.removeChild(t);kids.forEach(function(c){c.style.display=''});b.disabled=false;var e=doc.createElement('p');e.className='ferr';f.appendChild(e);e.textContent='Something went wrong. Please email info@ribrentals.com.';}
+ function bad(){if(t.parentNode)t.parentNode.removeChild(t);kids.forEach(function(c){c.style.display=''});b.disabled=false;window.turnstile&&window.turnstile.reset();var e=doc.createElement('p');e.className='ferr';f.appendChild(e);e.textContent='Something went wrong. Please email info@ribrentals.com.';}
  function ok(){track('generate_lead',{type:o.aanvraag,lang:'en',source:src});}
  fetch(WH,{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:body}).then(function(r){if(!r.ok)bad();else ok();}).catch(function(){
   fetch(WH,{method:'POST',keepalive:true,mode:'no-cors',headers:{'Content-Type':'text/plain'},body:body}).then(ok).catch(bad);});
 },true);
-})();</script></body></html>
+})();</script><script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script></body></html>
