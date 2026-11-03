@@ -1,4 +1,9 @@
+User-Agent: __usage_ai-training
+Disallow: /
+
 User-agent: *
 Allow: /
 
 Sitemap: https://www.ribrentals.com/sitemap.xml
+
+
